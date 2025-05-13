@@ -32,16 +32,23 @@ public class Main {
                 Contacto.eliminarContacto(nombre_eliminar);
             }
             else if (opcion == 4){
+
                 Contacto.mostrarLista();
+
             }
             else if (opcion == 3){
+
                 sc.nextLine();
                 System.out.println("Dime el nombre del contacto que deseas buscar");
                 String nombre_buscar = sc.nextLine().trim();
                 Contacto.buscarContacto(nombre_buscar);
+
             } else if (opcion == 5) {
+
                 Contacto.exportarJson();
+
             } else if(opcion == 6)  {
+
                 System.out.println("Saliendo...");
                 break;
             }
