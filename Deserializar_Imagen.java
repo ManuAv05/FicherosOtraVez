@@ -27,7 +27,7 @@ public class Deserializar_Imagen {
             }
 
             // Guardar imagen reconstruida
-            ImageIO.write(imagen, "png", new File("generado/nuevafotillo"));
+            ImageIO.write(imagen, "png", new File("generado/nuevafotillo.png"));
             System.out.println("✅ Imagen deserializada correctamente como 'nueva_foto.jpg'.");
         } catch (IOException e) {
             e.printStackTrace();
